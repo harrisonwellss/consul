@@ -5,7 +5,8 @@
 /docs/agent/acl-system.html                https://www.consul.io/docs/acl/acl-system.html
 /docs/agent/http.html                      https://www.consul.io/api/index.html
 /docs/guides/acl-legacy.html               https://www.consul.io/docs/acl/acl-legacy.html
-/docs/guides/acl-migrate-acl-tokens.html   https://www.consul.io/docs/acl/acl-migrate-acl-tokens.html
+/docs/guide/acl-migrate-tokens.html        https://www.consul.io/docs/acl/acl-migrate-tokens.html
+/docs/guides/acl-migrate-tokens.html       https://www.consul.io/docs/acl/acl-migrate-tokens.html
 /docs/guides/bootstrapping.html            https://www.consul.io/docs/install/bootstrapping.html
 /docs/guides/sentinel.html                 https://www.consul.io/docs/agent/sentinel.html
 
@@ -20,3 +21,8 @@
 /docs/guides/deployment.html                   https://learn.hashicorp.com/consul/advanced/day-1-operations/reference-architecture
 /docs/guides/dns-cache.html                    https://learn.hashicorp.com/consul/day-2-operations/advanced-operations/dns-caching
 /docs/guides/minikube.html                     https://learn.hashicorp.com/consul/getting-started-k8s/minikube
+
+# NOTE: Do not use this redirects file for intro doc links.
+#       A custom VCL (Varnish) configuration in the Fastly web admin has been
+#       used to redirect from `/intro/getting-started/*` to subpaths of
+#       https://learn.hashicorp.com/consul/
