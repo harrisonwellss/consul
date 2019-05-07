@@ -63,7 +63,7 @@ Protocol = "http"
 
 * `Name` - Set to the name of the service being configured.
 
-* `Protocol` - Sets the protocol of the service. This is used by Connect proxies for things like observability features.
+* `Protocol` - Sets the protocol of the service. This is used by Connect proxies for observability features.
 
 ## Bootstrapping
 
