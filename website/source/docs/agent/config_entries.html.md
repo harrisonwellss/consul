@@ -51,7 +51,7 @@ Config {
 
 ### Service Defaults - `service-defaults`
 
-Service defaults control default global values for a service, such as its protocol.
+Service defaults control default values for a service specified by its name, such as its protocol.
 
 ```hcl
 Kind = "service-defaults"
